@@ -16,3 +16,7 @@ it('multiply(3,3) equals 9', () => {
 it('multiply(4,4) equals 16', () => {
   assert.equal(multiply(4, 4), 16);
 })
+
+it('multiply(23, 45) equals 23 * 45', () => {
+  assert.equal(multiply(23, 45), 23 * 45);
+})
