@@ -1,3 +1,7 @@
-import { assertEqual } from 'node:assert';
+import assert from 'assert';
+import multiply from '../multiply.js';
+ 
 
-assertEqual(multiply(1,1),1);
+it('multiply(1,1) equals 1', () => {
+  assert.equal(multiply(1, 1), 1);
+})
