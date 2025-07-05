@@ -12,3 +12,7 @@ it('multiply(2,2) equals 4', () => {
 it('multiply(3,3) equals 9', () => {
   assert.equal(multiply(3, 3), 9);
 })
+
+it('multiply(4,4) equals 16', () => {
+  assert.equal(multiply(4, 4), 16);
+})
