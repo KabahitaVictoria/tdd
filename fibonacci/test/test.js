@@ -9,3 +9,6 @@ it('fibonacci(1) should return 1', () => {
     assert.equal(fibonacci(1), 1);
 });
 
+it('fibonacci(2) should return 1', () => {
+    assert.equal(fibonacci(2), 1);
+});
