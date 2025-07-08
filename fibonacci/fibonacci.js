@@ -1,3 +1,5 @@
+// Samia Nalugo and Victoria Kabahita
+
 export default function fibonacci(n) {
     if (Number.isInteger(n) === false) throw new Error("Input must be an integer");
     if (n < 0) throw new Error("Negative numbers not allowed");

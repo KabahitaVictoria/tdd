@@ -1,3 +1,5 @@
+// Samia Nalugo and Victoria Kabahita
+
 import assert from 'assert';
 import fibonacci from '../fibonacci.js';
 
