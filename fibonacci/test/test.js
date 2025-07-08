@@ -17,3 +17,14 @@ it('fibonacci(3) should return 2', () => {
     assert.equal(fibonacci(3), 2);
 })
 
+it('fibonacci(5) should return 5', () => {
+    assert.equal(fibonacci(5), 5)
+})
+
+it('fibonacci(-1) throws an error', () => {
+  assert.throws(() => fibonacci(-1), Error);
+})
+
+it('fibonacci(4.5) throws an error', () => {
+  assert.throws(() => fibonacci(4.5), Error);
+})
