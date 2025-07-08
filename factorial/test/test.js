@@ -19,3 +19,7 @@ it('factorial(5) equals 120', () => {
   assert.equal(factorial(5), 120);
 })
 
+it('factorial(-1) throws an error', () => {
+  assert.throws(() => factorial(-1), Error);
+})
+
