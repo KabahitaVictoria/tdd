@@ -12,3 +12,8 @@ it('fibonacci(1) should return 1', () => {
 it('fibonacci(2) should return 1', () => {
     assert.equal(fibonacci(2), 1);
 });
+
+it('fibonacci(3) should return 2', () => {
+    assert.equal(fibonacci(3), 2);
+})
+
