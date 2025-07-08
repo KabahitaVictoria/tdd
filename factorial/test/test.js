@@ -23,3 +23,6 @@ it('factorial(-1) throws an error', () => {
   assert.throws(() => factorial(-1), Error);
 })
 
+it('factorial(3.5) throws an error', () => {
+  assert.throws(() => factorial(3.5), Error);
+})
