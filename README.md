@@ -13,7 +13,6 @@ It was built as part of a TDD learning module with both **test-first** and **tes
 **Location:** `multiply/`  
 - Built using the Red-Green-Refactor cycle.
 - Includes tests for basic positive/negative numbers and zero.
-- Additional edge case tests for type safety and large values.
 
 ### 2. 🧮 **Factorial Function**  
 **Approach:** Test-Last  
