@@ -13,4 +13,8 @@ describe('Tax Calculator Tests', () => {
     it('taxCalculator(13000) should return 200', () => {
         assert.equal(taxCalculator(13000), 200)
     })
+
+    it('taxCalculator(40000) should return 6400', () => {
+        assert.equal(taxCalculator(40000), 6400)
+    })
 })
