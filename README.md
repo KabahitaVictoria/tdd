@@ -34,6 +34,18 @@ It was built as part of a TDD learning module with both **test-first** and **tes
 
 ---
 
+### 4. 💼 **Tax Calculator Function (Personal Practice)**
+**Approach:** Test-First  
+**Location:** `taxCalculator/` 
+- A progressive tax calculator function implementing real-world tax brackets:  
+   - 0% on earnings up to 12,000  
+   - 20% on earnings between 12,001 and 36,000  
+   - 40% on earnings above 36,000
+
+- The function includes input validation and is tested with edge cases.
+
+---
+
 ## 🧰 Tools & Dependencies
 
 - **Node.js**
