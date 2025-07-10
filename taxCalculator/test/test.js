@@ -22,4 +22,13 @@ describe('Tax Calculator Tests', () => {
     it('taxCalculator(36000) should return 4800', () => {
         assert.equal(taxCalculator(36000), 4800)
     })
+
+    // test for invalid inputs
+    it('taxCalculator("abc") should throw an error', () => {
+        assert.throws(() => taxCalculator("abc"), Error);
+    })
+
+    it('taxCalculator(-100) should throw an error', () => {
+        assert.throws(() => taxCalculator(-100), Error);
+    })
 })

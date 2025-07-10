@@ -1,4 +1,8 @@
 export default function taxCalculator(earnings) {
+    if (typeof earnings !== 'number' || isNaN(earnings) || earnings < 0) {
+        throw new Error('Invalid earnings input');
+    }
+    
     let tax = 0;
 
     if(earnings < 12000) {
