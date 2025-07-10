@@ -17,4 +17,9 @@ describe('Tax Calculator Tests', () => {
     it('taxCalculator(40000) should return 6400', () => {
         assert.equal(taxCalculator(40000), 6400)
     })
+
+    // test for edge case i.e 36000
+    it('taxCalculator(36000) should return 4800', () => {
+        assert.equal(taxCalculator(36000), 4800)
+    })
 })
